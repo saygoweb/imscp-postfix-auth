@@ -1,0 +1,18 @@
+{
+    "variables": {
+        "name": "SGW_PostfixAuth"
+    },
+    "clean": {
+        "by": [
+            "rm -f ./*.tgz"
+        ]
+    },
+    "package": {
+        "depends": [
+            "clean"
+        ],
+        "by": [
+            "tar -cvzf ./{{name}}.tgz --transform 's|./|{{name}}/|' -X upload-exclude.txt ./*"
+        ]
+    }
+}

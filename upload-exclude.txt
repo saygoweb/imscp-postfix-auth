@@ -1,0 +1,12 @@
+.git
+.gitignore
+test
+tools
+PLAN.md
+build*
+*.zip
+*.tgz
+makefile.json
+upload-exclude.txt
+.vagrant
+log
