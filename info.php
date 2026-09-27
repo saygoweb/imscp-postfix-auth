@@ -21,9 +21,9 @@
 return array(
     'author'      => 'Cambell Prince',
     'email'       => 'cambell.prince@gmail.com',
-    'version'     => '0.1.0',
+    'version'     => '0.1.1',
     'require_api' => '1.5.1',
-    'date'        => '2026-09-03',
+    'date'        => '2026-09-27',
     'name'        => 'SGW_PostfixAuth',
     'desc'        => 'Per-domain DKIM signing, and customisable SPF and DMARC records.',
     'url'         => 'https://github.com/saygoweb/imscp-postfix-auth'
